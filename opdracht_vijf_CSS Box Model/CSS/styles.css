@@ -1,0 +1,73 @@
+body{
+    background-color:black;
+    color: silver;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+header{
+    /* uitgebreide css padding */
+    margin: 10px;
+    border: 10px double slategray; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: auto;
+    padding-right: auto; 
+}
+
+main{
+    /*shorthand css padding*/
+    margin: 10px;
+    border: 10px double slategray;
+    padding: 10px 10px auto auto;
+}
+/*.navi ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}*/
+/*code taken from https://www.w3schools.com/css/css_navbar_horizontal.asp*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: silver;
+}
+  
+nav li {
+    float: left;
+}
+  
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px auto;
+    text-decoration: none;
+    border-right:5px solid slategray;
+}
+
+nav li a:hover{
+    color:yellow;
+    background-color: black;
+    border-color: darkred;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-shadow: 4px 4px 3px silver;
+}
+.mid-text{
+    font-size: medium;
+}
+.big-text{
+    font-size: large;
+}
+
+ol, ul, p{
+    background-color: silver;
+    color: black;
+}
+
