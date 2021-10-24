@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!--Nice to know you can make your nav into a list instead of constantly using <br> at the end-->
+            <ul>
+                <li><a href=" http://www.wincacademy.nl" target="_blank">Winc Academy</a></li>
+                <li><a href="https://www.google.com" target="_blank">Link naar google</a></li>
+                <li><a href="AboutMe.html" target="_blank">About me</a></li>
+                <li><a href="index.html" target="_blank">Index</a></li>
+            </ul>
+            <img src="img/fotoVanNathaniel.jpg"> <br>
+        </nav>
+    </header>
+    <form name="contact" method="POST" data-netlify="true">
+
+        <ul>
+            <li>
+                Name: <label for="name"><input type="name" id="name" name="name" value="name"
+                        placeholder="enter your name"></label>
+            </li>
+            <li>
+                Email: <label for="email"><input type="email" id="email" name="email" value="email"
+                        placeholder="enter your email"></label>
+            </li>
+            <li>
+                Phone number: <label for="phoneNumber"><input type="tel" id="phoneNumber" name="phoneNumber"
+                        value="phoneNumber" placeholder="enter your phone number"></label>
+            </li>
+            <li>
+                Date of birth: <label for="dateOfBirth"> <input type="date" id="dateOfBirth" name="dateOfBirth"
+                        value="dateOfBirth"></label>
+            </li>
+            <li>
+                Male: <label for="male"><input id="male" type="radio" name="sex" value="male"></label>
+                Female: <label for="female"><input id="female" type="radio" name="sex" value="female"></label>
+            </li>
+            <li>
+                <div>
+                    <h3>Favorite Cuisine</h3>
+                    <ul>
+                        <li>French: <label for="french"><input id="french" type="checkbox" name="cuisine"
+                                    value="french"></label>
+
+                            Italian: <label for="italian"><input id="italian" type="checkbox" name="cuisine"
+                                    value="italian"></label>
+                        </li>
+                        <li>Spanish: <label for="spanish"><input id="spanish" type="checkbox" name="cuisine"
+                                    value="spanish"></label>
+
+                            Arabic: <label for="arabic"><input id="arabic" type="checkbox" name="cuisine"
+                                    value="arabic"></label>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                Favorite color apron: <label for="apronColor"><input type="color" id="apronColor" name="apronColor"
+                        value="apronColor"></label>
+            </li>
+            <li>
+                Biography: <textarea name="biography" id="biography" cols="30" rows="10"></textarea>
+            </li>
+            <li>
+                Latest recipe: <label for="recipe"> <input type="file" id="recipe" name="recipe" value="recipe"></label>
+            </li>
+            <li>
+                Url to recipe website: <label for="website"><input id="website" type="url" name="website"
+                        value="website"></label>
+            </li>
+            <li>
+                information: <button type="reset">reset</button>
+            </li>
+            <li>
+                information: <button type="submit">submit</button>
+
+            </li>
+        </ul>
+
+    </form>
+
+</body>
+
+</html>
