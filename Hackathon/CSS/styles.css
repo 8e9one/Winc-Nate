@@ -1,0 +1,227 @@
+@media (min-width: 760px){
+    nav{
+        width: 100%;
+        height: 100x;
+        border: 0px;
+        margin-top: 0px;
+        padding: 0px 0px;
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        background-color: #6b705c;
+    
+    }
+    
+    nav li{
+        display: inline-block;
+        list-style-type: none;
+        text-align: center;
+        padding: 10px 10px;
+        border-radius: 10%;
+      
+    }
+    
+    nav a{
+        display: inline-block;
+        text-decoration: none;
+        font-size: 23px;
+        color: #ffe8d6;
+    }
+    
+    nav a:hover {
+        text-decoration: none;
+        height: 20px;
+        width: auto;
+        font-size: 29px;
+        color: #a5a58d;
+        transition: 1s;
+    }
+    .indexIllustration{
+        width: 150px;
+        border-radius: 10%;
+        float: left;
+    }
+    .indexIllustration:hover{
+        width: 160px;
+        border-radius: 10%;
+        float: left;
+        transition: 1s;
+
+
+    }
+
+}
+/*mobile 480px side*/
+@media (min-width: 321px) and (max-width: 759px){
+    nav{
+        width: 420px;
+        height: 100x;
+        border: 0px;
+        margin-top: 0px;
+        padding: 0px 0px;
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+    
+    }
+    
+    nav li{
+        display: inline-block;
+        list-style-type: none;
+        text-align: center;
+        padding: 10px 10px;
+        border-radius: 10%;
+      
+    }
+    
+    nav a{
+        display: inline-block;
+        text-decoration: none;
+        font-size: 23px;
+        color: #ffe8d6;
+    }
+    
+    nav a:hover {
+        text-decoration: none;
+        height: 20px;
+        width: auto;
+        font-size: 29px;
+        color: #a5a58d;
+        transition: 1s;
+    }
+    .indexIllustration{
+        width: 440px;
+        border-radius: 10%;
+        float: left;
+    }
+    .indexIllustration:hover{
+        width: 460px;
+        border-radius: 10%;
+        transition: 1s;
+
+
+    }
+}
+/*mobile 320px*/
+@media screen and (max-width: 320px){
+    nav{
+        width:300px;
+        height: 75px;
+        border: 0px;
+        margin-top: 0px;
+        padding: 0px 0px;
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+    
+    }
+    
+    nav li{
+        display: inline-block;
+        list-style-type: none;
+        text-align: center;
+        padding: 10px 10px;
+        border-radius: 10%;
+      
+    }
+    
+    nav a{
+        display: inline-block;
+        text-decoration: none;
+        font-size: 15px;
+        color: #ffe8d6;
+    }
+    
+    nav a:hover {
+        text-decoration: none;
+        height: 20px;
+        width: auto;
+        font-size: 20px;
+        color: #a5a58d;
+        transition: 1s;
+    }
+    .indexIllustration{
+        width: 300px;
+        border-radius: 10%;
+        float: left;
+    }
+    .indexIllustration:hover{
+        width: 310px;
+        border-radius: 10%;
+        transition: 1s;
+
+
+    }
+}
+
+
+.changeColor {
+    
+    color: #ddbea9;
+    transition: background-color 2s;
+}
+
+.changeColor:hover {
+    background-color: #ffe8d6;
+}
+.lightBackGround{
+    color: #6b705c;
+    transition: background-color 2s;
+
+}
+
+.lightBackGround:hover {
+    background-color: #ffe8d6;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/Transition_button */
+
+Body{
+    background-image: url(/Hackathon/IMG/index.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: left;
+    color: #6b705c;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.camaro-bg{
+    background-image: url(/Hackathon/IMG/camaro.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #6b705c;
+
+}
+
+.challenger-bg{
+    background-image: url(/Hackathon/IMG/challenger.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #6b705c;
+}
+
+.mustang-bg{
+    background-image: url(/Hackathon/IMG/mustang.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #6b705c;
+}
+
+.choose-bg{
+    background-image: url(/Hackathon/IMG/index.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #6b705c;
+}
+form li{
+    list-style-type: none;
+}
+
+form a{
+    text-decoration: none;
+}
+
+
