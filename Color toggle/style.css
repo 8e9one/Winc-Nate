@@ -1,0 +1,85 @@
+.btn-toggle-color-choices{
+width: 100px;
+height: 100px;
+position: fixed;
+left: 0px;
+top: 0px;
+background-image: url("img/menu.png");
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: center;
+cursor: pointer;
+}
+
+.list-color-choices{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 300px;
+    padding: 0 10px;
+    height: calc(100vh - 100px);
+    color: white;
+    z-index: 1000;
+    /* transition: all 0.3s ease-in-out; */
+
+}
+
+.list-color-choices ul {
+    overflow: hidden;
+    visibility: hidden;
+
+}
+
+
+.list-color-choices ul li {
+    list-style: none;
+    text-decoration: none;
+    line-height: 100px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.list-color-choices ul li span {
+    display: block;
+    height: 100px;
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    white-space: nowrap;
+    /* transition: all 0.3s ease-in-out; */
+
+}
+.list-color-choices ul li a {
+    display: block;
+    height: 100px;
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    white-space: nowrap;
+    /* transition: all 0.3s ease-in-out; */
+}
+
+
+
+
+.white-background, #whiteBg{
+    background-color: white;
+    }
+.red-background, #redBg {
+    background-color: red;
+    }
+.orange-background, #orangeBg{
+    background-color: orange;
+    }
+.purple-background, #purpleBg {
+    background-color: purple;
+    }
+.green-background, #greenBg {
+    background-color: green;
+    }
+    
