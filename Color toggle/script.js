@@ -8,7 +8,6 @@ const getPurpleBg = document.querySelector("#purpleBg")
 const getGreenBg = document.querySelector("#greenBg")
 
 
-
 let toggleSide = function () {
     let getSide = document.querySelector(".list-color-choices");
     let getSideUl = document.querySelector(".list-color-choices ul");
@@ -32,36 +31,43 @@ let toggleSide = function () {
     }
 
 }
-
-
+// Option one manually fill in all the options
+const classL = ["white-background", "red-background", "orange-background", "purple-background", "green-background"];
+//option two 
+const classL2 = document.getElementById("bodyBg").classList
 
 getWhiteBg.addEventListener("click", function () {
-    getBackground.classList.toggle("white-background");
+    // getBackground.classList.remove("white-background", "red-background", "orange-background", "purple-background", "green-background") was also thinking maybe to make an array of all the options on the classlist and write a for loop to remove. but I ended up choosing to make a const with all the options this felt easier.
+    getBackground.classList.remove(...classL);
+    getBackground.classList.add("white-background");
     toggleSide();
 })
 
 getRedBg.addEventListener("click", function () {
-    getBackground.classList.toggle("red-background");
+    getBackground.classList.remove(classL2);
+    getBackground.classList.add("red-background");
     toggleSide();
 
 })
 
 getOrangeBg.addEventListener("click", function () {
-    getBackground.classList.toggle("orange-background");
+    getBackground.classList.remove(classL2);
+    getBackground.classList.add("orange-background");
     toggleSide();
 
 
 })
 
 getPurpleBg.addEventListener("click", function () {
-    getBackground.classList.toggle("purple-background");
+    getBackground.classList.remove(classL2);
+    getBackground.classList.add("purple-background");
     toggleSide();
 
 })
 
 getGreenBg.addEventListener("click", function () {
-    getBackground.classList.toggle("green-background");
+    getBackground.classList.remove(classL2);
+    getBackground.classList.add("green-background");
     toggleSide();
 
 })
-
